@@ -1,7 +1,7 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import PostForm from "./components/PostForm";
 import User from "./components/User";
-import { useSelector } from "react-redux";
 import Post from "./components/Post";
 import { isEmpty } from "./components/Utils";
 
